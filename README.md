@@ -40,7 +40,7 @@
 
 ---
 
-# 🚀 Inference Guide for DWTFreqNet
+# 🚀 Train and Inference Guide for DWTFreqNet
 
 This section outlines the steps to run inference using the DWTFreqNet model.
 
@@ -56,3 +56,37 @@ Specify the dataset you want to train on and the path where the dataset is place
 parser.add_argument("--dataset_names", default=['NUDT-SIRST'], type=list)
 parser.add_argument("--dataset_dir", default=r'../Dataset')
 ```
+
+---
+
+### ▶️ Step 2: Run Train
+
+Run the train script:
+
+```bash
+python train.py
+```
+
+The output results will be saved to the `./log/` directory.
+
+---
+
+### ▶️ Step 3: Run Test
+
+Run the test script:
+
+```bash
+python test.py
+```
+
+---
+
+## 💻 Experimental Results
+
+</div>
+
+<div align="center">
+<img src="image/zong_duibitu_update3.png" height="450">
+</p>
+
+
