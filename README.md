@@ -93,8 +93,6 @@ python test.py
 <img src="image/ex.jpg" height="450">
 </p>
 
-</div>
-
 ---
 
 ## 🙏 Thanks
