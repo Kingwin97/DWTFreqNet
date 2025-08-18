@@ -28,7 +28,7 @@
 ---
 
 ## :fire: News
-* **[2025.08]** TGRS R2!
+* **[2025.08]** Current Status: TGRS R2!
 * **[2025.08]** We release the code.  
 
 ---
@@ -81,7 +81,7 @@ python test.py
 
 ---
 
-## 💻 Experimental Results
+## 📊 Experimental Results
 
 </div>
 
