@@ -87,8 +87,7 @@ python test.py
 <img src="image/zong_duibitu_update3.png" height="450">
 </p>
 
-<div align="center">
-  <img src="image/ex.jpg" height="450">
+<img src="image/ex.jpg" height="450">
 </div>
 
 ---
