@@ -93,4 +93,21 @@ python test.py
 <img src="image/ex.jpg" height="450">
 </p>
 
+</div>
+
+---
+
+## 🙏 Thanks
+Our code is based on [SCT](https://github.com/xdFai/SCTransNet). You can refer to their README files and source code for more implementation details.
+
+---
+
+## 📖 Citation
+
+If you find our work useful, please consider citing:
+
+```
+[TGRS]
+```
+
 
