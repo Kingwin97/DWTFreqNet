@@ -1,3 +1,4 @@
 <div align="center">
-
-<h1><img src="C:\Users\MaQianWen\Desktop\wave.png" width="50"> Underwater Image Enhancement by Diffusion Model with Customized CLIP-Classifier</h1>
+  
+<h1><span style="font-size:2em;">🔴</span> Infrared Small Target Detection via Wavelet-Driven Frequency Matching and Saliency-Difference Optimization</h1>
+</div>
