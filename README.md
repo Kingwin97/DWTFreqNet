@@ -24,8 +24,13 @@
 </p>
 
 </div>
+
 ---
-## :fire: News
-* **[2025.08]** TGRS R2.
-* **[2025.08]** We release the code.
+
+## 💻 Requirements
+
+- PyTorch >= 1.13.1  
+- CUDA >= 11.3  
+- Other dependencies are listed in `requirements.txt`  
+
 ---
