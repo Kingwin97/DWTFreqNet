@@ -90,11 +90,9 @@ python test.py
 </p>
 
 <div align="center">
-<img src="image/ex.jpg" height="450">
-</p>
-
-  
+  <img src="image/ex.jpg" height="450">
 </div>
+
 ---
 
 ## 🙏 Thanks
@@ -109,5 +107,4 @@ If you find our work useful, please consider citing:
 ```
 [TGRS]
 ```
-</div>
 
