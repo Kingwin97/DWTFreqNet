@@ -24,3 +24,7 @@
 </p>
 
 </div>
+---
+## :fire: News
+* **[2025.08]** TGRS R2.
+* **[2025.08]** We release the code.
