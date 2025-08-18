@@ -29,6 +29,25 @@
 
 ## :fire: News
 * **[2025.08]** TGRS R2!
-* **[2025.18]** We release the code.`  
+* **[2025.08]** We release the code.  
 
 ---
+
+## 💻 Requirements
+
+- PyTorch >= 1.13.1  
+- CUDA >= 11.3
+
+---
+
+# 🚀 Inference Guide for DWTFreqNet
+
+This section outlines the steps to run inference using the DWTFreqNet model.
+
+---
+
+### 📝 Step 1: Prepare the Dataset
+
+Download the open-source infrared small target detection datasets we used: [NUDT-SIRST](https://github.com/chen-judge/NUDT-SIRST), [NUAA-SIRST](https://github.com/NUAA-ISRC/NUAA-SIRST), and [IRSTD-1K](https://github.com/NoahShen/IRSTD-1K).
+
+Specify your own directories for raw and reference images:
