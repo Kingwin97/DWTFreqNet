@@ -83,8 +83,6 @@ python test.py
 
 ## 📊 Experimental Results
 
-</div>
-
 <div align="center">
 <img src="image/zong_duibitu_update3.png" height="450">
 </p>
@@ -95,12 +93,12 @@ python test.py
 
 ---
 
-### 🙏 Thanks
+## 🙏 Thanks
 Our code is based on [SCT](https://github.com/xdFai/SCTransNet). You can refer to their README files and source code for more implementation details.
 
 ---
 
-### 📖 Citation
+## 📖 Citation
 
 If you find our work useful, please consider citing:
 
