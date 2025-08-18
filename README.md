@@ -48,6 +48,7 @@ This section outlines the steps to run inference using the DWTFreqNet model.
 
 ### 📝 Step 1: Prepare the Dataset
 
-Download the open-source infrared small target detection datasets we used: [NUDT-SIRST](https://github.com/chen-judge/NUDT-SIRST), [NUAA-SIRST](https://github.com/NUAA-ISRC/NUAA-SIRST), and [IRSTD-1K](https://github.com/NoahShen/IRSTD-1K).
+Download the open-source infrared small target detection datasets we used:
+[NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection), [NUAA-SIRST](https://github.com/YimianDai/open-deepinfrared), and [IRSTD-1K](https://github.com/RuiZhang97/ISNet).
 
 Specify your own directories for raw and reference images:
