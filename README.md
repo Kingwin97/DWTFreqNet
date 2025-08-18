@@ -15,7 +15,7 @@
 </p>
   
 </div>
-<img src="image/backbone.png" height="200">
+<img src="image/backbone.png" height="500">
 <p align="center" style="font-style: italic;">
 (a) The overall framework of the proposed method. (b) The process of generating four low-resolution components from the input image through DWT downsampling and the process of upsampling back to a high-resolution image through IDWT. (c) The processing of two consecutive WFE modules. When the module is a DWFE, the feature maps will be concatenated with those from other nodes.
 </p>
