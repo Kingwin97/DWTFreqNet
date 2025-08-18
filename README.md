@@ -94,6 +94,8 @@ python test.py
 </p>
 
 ---
+</div>
+
 
 ### 🙏 Thanks
 Our code is based on [SCT](https://github.com/xdFai/SCTransNet). You can refer to their README files and source code for more implementation details.
