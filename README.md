@@ -79,6 +79,10 @@ Run the test script:
 python test.py
 ```
 
+Weights
+
+Baidu Pan: https://pan.baidu.com/s/1nWugwqxK-KvL99A_F7_EKA?pwd=rph9 code: rph9
+
 ---
 
 ## 📊 Experimental Results
