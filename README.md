@@ -106,6 +106,7 @@ Our code is based on [SCT](https://github.com/xdFai/SCTransNet). You can refer t
 If you find our work useful, please consider citing:
 
 ```
-[TGRS]
+Q. Ma et al., "DWTFreqNet: Infrared Small Target Detection via Wavelet-Driven Frequency Matching and Saliency-Difference Optimization," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2025.3608725.
+keywords: {Discrete wavelet transforms;Feature extraction;Object detection;Transformers;Deep learning;Data mining;Clutter;Wavelet domain;Decoding;Training;Infrared small target detection;convolutional neural network;transformer;discrete wavelet transform},
 ```
 
