@@ -28,6 +28,7 @@
 ---
 
 ## :fire: News
+* **[2025.09]** Current Status: TGRS Accept!
 * **[2025.08]** Current Status: TGRS R2!
 * **[2025.08]** We release the code.  
 
@@ -106,6 +107,12 @@ Our code is based on [SCT](https://github.com/xdFai/SCTransNet). You can refer t
 If you find our work useful, please consider citing:
 
 ```
-Q. Ma et al., "DWTFreqNet: Infrared Small Target Detection via Wavelet-Driven Frequency Matching and Saliency-Difference Optimization," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2025.3608725.
+@article{ma2025dwtfreqnet,
+  title={DWTFreqNet: Infrared Small Target Detection via Wavelet-Driven Frequency Matching and Saliency-Difference Optimization},
+  author={Ma, Qianwen and Deng, Shangwei and Li, Bincheng and Zhu, Zhen and Song, Ziying and Li, Xiaobo and Hu, Haofeng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2025},
+  publisher={IEEE}
+}
 ```
 
