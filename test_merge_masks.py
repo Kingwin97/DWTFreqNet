@@ -10,9 +10,13 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-# Add the current directory to the path to import merge_masks
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from merge_masks import extract_base_name, group_masks_by_base_image, merge_masks, process_masks
+# Import merge_masks from the same directory
+try:
+    from merge_masks import extract_base_name, group_masks_by_base_image, merge_masks, process_masks
+except ImportError:
+    # Fallback: add parent directory to path if running from subdirectory
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from merge_masks import extract_base_name, group_masks_by_base_image, merge_masks, process_masks
 
 
 def test_extract_base_name():

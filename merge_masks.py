@@ -11,6 +11,7 @@ Multiple masks for the same image are combined using pixel-wise OR operations.
 
 import os
 import re
+import sys
 from pathlib import Path
 from PIL import Image
 import numpy as np
@@ -96,21 +97,21 @@ def merge_masks(mask_paths):
         return None
     
     # Load the first mask to get dimensions
-    first_mask = Image.open(mask_paths[0]).convert('L')
-    merged_mask = np.array(first_mask, dtype=np.uint8)
+    with Image.open(mask_paths[0]).convert('L') as first_mask:
+        merged_mask = np.array(first_mask, dtype=np.uint8)
     
     # Merge remaining masks using pixel-wise OR
     for mask_path in mask_paths[1:]:
-        mask = Image.open(mask_path).convert('L')
-        mask_array = np.array(mask, dtype=np.uint8)
-        
-        # Ensure dimensions match
-        if mask_array.shape != merged_mask.shape:
-            print(f"Warning: Mask {mask_path.name} has different dimensions. Skipping.")
-            continue
-        
-        # Pixel-wise OR operation
-        merged_mask = np.maximum(merged_mask, mask_array)
+        with Image.open(mask_path).convert('L') as mask:
+            mask_array = np.array(mask, dtype=np.uint8)
+            
+            # Ensure dimensions match
+            if mask_array.shape != merged_mask.shape:
+                print(f"Warning: Mask {mask_path.name} has different dimensions. Skipping.")
+                continue
+            
+            # Pixel-wise OR operation
+            merged_mask = np.maximum(merged_mask, mask_array)
     
     return merged_mask
 
@@ -167,7 +168,6 @@ def main():
         print("\nUsage: python merge_masks.py <input_folder> <output_folder>")
         
         # Try to use command line arguments if provided
-        import sys
         if len(sys.argv) >= 3:
             input_folder = sys.argv[1]
             output_folder = sys.argv[2]
