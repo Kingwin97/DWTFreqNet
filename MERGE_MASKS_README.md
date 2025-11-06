@@ -36,8 +36,12 @@ python merge_masks.py --input "D:\qw\Code_github\cicai_all\cicaiquexian_seg\trai
 
 ### Arguments
 
-- `--input`: Path to the folder containing mask files to be merged (default: `D:\qw\Code_github\cicai_all\cicaiquexian_seg\train\masks`)
-- `--output`: Path to the folder where merged masks will be saved (default: `D:\qw\Code_github\cicai_all\merged_masks_images`)
+- `--input`: Path to the folder containing mask files to be merged
+  - Default: `D:\qw\Code_github\cicai_all\cicaiquexian_seg\train\masks` (Windows path - adjust for your system)
+- `--output`: Path to the folder where merged masks will be saved
+  - Default: `D:\qw\Code_github\cicai_all\merged_masks_images` (Windows path - adjust for your system)
+
+**Note:** The default paths are specified for Windows. Linux/Mac users should provide their own paths using the `--input` and `--output` arguments.
 
 ### Help
 

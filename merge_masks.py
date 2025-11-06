@@ -162,14 +162,14 @@ Example usage:
         '--input',
         type=str,
         default=r'D:\qw\Code_github\cicai_all\cicaiquexian_seg\train\masks',
-        help='Input folder containing mask files'
+        help='Input folder containing mask files (Note: Default path is for Windows. Adjust for your system.)'
     )
     
     parser.add_argument(
         '--output',
         type=str,
         default=r'D:\qw\Code_github\cicai_all\merged_masks_images',
-        help='Output folder for merged mask files'
+        help='Output folder for merged mask files (Note: Default path is for Windows. Adjust for your system.)'
     )
     
     args = parser.parse_args()
